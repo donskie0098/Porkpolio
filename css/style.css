@@ -74,7 +74,8 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   margin-top: 0;
-  margin-bottom: 1rem; }
+  margin-bottom: 1rem;
+  color:#000000;}
 
 abbr[title],
 abbr[data-original-title] {
@@ -167,7 +168,10 @@ figure {
 
 img {
   vertical-align: middle;
-  border-style: none; }
+  border-style: none;}
+
+
+
 
 svg {
   overflow: hidden;
@@ -1858,6 +1862,8 @@ textarea.form-control {
   margin-top: 0.25rem;
   font-size: 80%;
   color: #dc3545; }
+
+
 
 .invalid-tooltip {
   position: absolute;
@@ -8347,7 +8353,7 @@ h1, h2, h3, h4, h5,
     -ms-transform: translateY(-50%);
     transform: translateY(-50%);
     font-size: 41vw;
-    text-transform: uppercase;
+    text-transform:uppercase;
     z-index: 1;
     color: #fff;
     color: transparent;
@@ -8615,10 +8621,18 @@ h1, h2, h3, h4, h5,
   box-shadow: 0px 24px 36px -11px rgba(0, 0, 0, 0.09); }
   .btn:hover, .btn:active, .btn:focus {
     outline: none; }
+
+    /*BTN ABOUT & Hover*/
   .btn.btn-primary {
-    background: #fdcb6e !important;
-    border: 1px solid #fdcb6e !important;
+    background: #f9c25b !important;
+    border: 1px solid #f9c25b !important;
+    color: #000 !important; }
+    .btn.btn-primary.about:hover{
+    background: #f7ad25 !important;
+    border: 1px solid #f7ad25 !important;
     color: #fff !important; }
+    /*END ABOUT & Hover*/
+
     .btn.btn-primary:hover {
       border: 1px solid #fdcb6e;
       background: transparent;
@@ -8917,6 +8931,16 @@ textarea.form-control {
   display: block;
   margin-bottom: 5px; }
 
+.subheading{
+  text-shadow: 0px 0px 4px #fff;
+}
+
+.blacktive{
+  color:#fff;
+}
+.blacktive:hover{
+  color:#000;
+}
 .heading-section h2 {
   font-size: 14vw;
   font-weight: 900;
@@ -8946,6 +8970,10 @@ textarea.form-control {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center; }
+
+#img{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 
 .portfolio-wrap {
   display: block;
@@ -9131,12 +9159,14 @@ textarea.form-control {
           -webkit-transform: translateY(-20%);
           -ms-transform: translateY(-20%);
           transform: translateY(-20%); } }
-      .portfolio-entry .one-half.half-text .text .desc .custom-btn, .portfolio-entry .one-half.half-text .text-2 .desc .custom-btn {
+      .portfolio-entry .one-half.half-text .text .desc .custom-btn, .portfolio-entry .one-half.half-text .text-2 .desc .custom-btn {     
         text-transform: uppercase;
         font-size: 12px;
         letter-spacing: 3px;
         color: #b3b3b3;
         font-weight: 700; }
+
+        /*Buttom Hover*/
     .portfolio-entry .one-half.half-text .text:hover, .portfolio-entry .one-half.half-text .text-2:hover {
       -moz-transition: all 0.3s ease;
       -o-transition: all 0.3s ease;
@@ -9145,12 +9175,14 @@ textarea.form-control {
       transition: all 0.3s ease; }
       .portfolio-entry .one-half.half-text .text:hover .absolute, .portfolio-entry .one-half.half-text .text-2:hover .absolute {
         position: relative;
+       
         opacity: 1;
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0); }
       .portfolio-entry .one-half.half-text .text:hover .top, .portfolio-entry .one-half.half-text .text-2:hover .top {
         position: relative;
+
         -webkit-transform: translateY(0);
         -ms-transform: translateY(0);
         transform: translateY(0); }
